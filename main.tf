@@ -64,6 +64,7 @@ module "alb" {
         status_code = "HTTP_301"
       }
     }
+  }
 
   target_groups = {
     ex-instance = {
